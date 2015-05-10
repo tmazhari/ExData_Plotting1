@@ -14,4 +14,6 @@ pwrData <- rbind(pwrsub1, pwrsub2)
 # Plot 1
 png("plot1.png", width=480, height=480)
 hist(as.numeric(pwrData$Global_active_power), col="red", main="Global Active Power", xlab="Gloabl Active Power (kilowatts)")
+
 dev.off()
+
